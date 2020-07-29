@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54343" started-at="2020-07-29T07:02:35Z" finished-at="2020-07-29T07:03:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54343" started-at="2020-07-29T07:02:35Z" finished-at="2020-07-29T07:03:29Z">
+      <class name="leaftaps.CrateLead">
+        <test-method status="PASS" signature="login()[pri:0, instance:leaftaps.CrateLead@69ea3742]" name="login" is-config="true" duration-ms="15439" started-at="2020-07-29T07:02:35Z" finished-at="2020-07-29T07:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createlead()[pri:0, instance:leaftaps.CrateLead@69ea3742]" name="createlead" duration-ms="4485" started-at="2020-07-29T07:02:51Z" finished-at="2020-07-29T07:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createlead -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:leaftaps.CrateLead@69ea3742]" name="closeBrowser" is-config="true" duration-ms="2448" started-at="2020-07-29T07:02:55Z" finished-at="2020-07-29T07:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- leaftaps.CrateLead -->
+      <class name="leaftaps.DuplicateLead">
+        <test-method status="PASS" signature="login()[pri:0, instance:leaftaps.DuplicateLead@3159c4b8]" name="login" is-config="true" duration-ms="14201" started-at="2020-07-29T07:02:58Z" finished-at="2020-07-29T07:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="duplicateLead()[pri:0, instance:leaftaps.DuplicateLead@3159c4b8]" name="duplicateLead" duration-ms="15413" started-at="2020-07-29T07:03:12Z" finished-at="2020-07-29T07:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLead -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:leaftaps.DuplicateLead@3159c4b8]" name="closeBrowser" is-config="true" duration-ms="2316" started-at="2020-07-29T07:03:27Z" finished-at="2020-07-29T07:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- leaftaps.DuplicateLead -->
+      <class name="leaftaps.FindLead">
+        <test-method status="PASS" signature="login()[pri:0, instance:leaftaps.FindLead@4b952a2d]" name="login" is-config="true" duration-ms="17132" started-at="2020-07-29T07:02:35Z" finished-at="2020-07-29T07:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="findLead()[pri:0, instance:leaftaps.FindLead@4b952a2d]" name="findLead" duration-ms="18573" started-at="2020-07-29T07:02:52Z" finished-at="2020-07-29T07:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findLead -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:leaftaps.FindLead@4b952a2d]" name="closeBrowser" is-config="true" duration-ms="2322" started-at="2020-07-29T07:03:11Z" finished-at="2020-07-29T07:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- leaftaps.FindLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
